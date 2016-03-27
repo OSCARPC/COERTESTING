@@ -55,7 +55,7 @@ $('#formulario').submit(function() {
 	var datosUsuario = $("#nombredeusuario").val()
 	var datosPassword = $("#clave").val()
 	
-  	archivoValidacion = "http://190.42.217.93/mobile/coer/validacion_de_datos.php?jsoncallback=?"
+  	archivoValidacion = "http://190.42.217.93:80/mobile/coer/validacion_de_datos.php?jsoncallback=?"
 
 	$.getJSON( archivoValidacion, { usuario:datosUsuario ,password:datosPassword})
 	.done(function(respuestaServer) {
