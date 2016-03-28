@@ -16,5 +16,5 @@
     <author href="https://www.facebook.com/oozcar.fork" email="oscarpcaceres@gmail.com">
 		TESTING COER ~ PIURA
     </author>
-
+    <access origin="*" />
 </widget>
